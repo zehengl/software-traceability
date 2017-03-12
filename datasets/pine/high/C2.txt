@@ -1,0 +1,1 @@
+The system shall allow users to add attachments of any file extension to email messages using the Multipurpose Internet Mail Extensions (MIME) specification.

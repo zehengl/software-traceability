@@ -1,0 +1,13 @@
+Use Case Name	Create folders
+Summary	The user creates a new folder to store mail.
+Actor	Pine user
+Pre-condition	The user logs in to the pine system.
+Use Case ID	UC.F.1
+Description	1.	The system displays a listing of all available mail messages.
+The user views the list of all the available folders.
+The user creates a new folder to store mail.
+A new folder is created and added to the existing list.
+A list of available folders(including the new one) is displayed.
+Alternatives	If a user creates a new folder which has the same name as any of the existing folders, the system issues a warning message and does not allow same name.
+Post-condition	A new folder is created and added to the existing list.
+~

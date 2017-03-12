@@ -1,0 +1,20 @@
+Use Case ID: UC6_WB
+Requirements: F1
+Use Case Name: Create Folder
+Summary: User create a new folder and name it
+Actor: Pine User
+Precondition: Pine is running
+Description:
+User selects the folder list
+Pine display the folder list
+User selects to create new folder
+Pine display the interface for user to input the file name
+User input the name of the folder
+Pine create a new folder with the name specified by user
+Alternative:
+If user does not input empty as the name of the folder, Pine will warn the user and will not create the folder
+If user input a name which is same as a existing folder,  Pine will warn the user and will not create the folder
+If user selects to cancel the operation instead of naming the folder, Pine will not save the changes user made
+Postcondition:
+Pine creates a new folder with the name specified by user
+~

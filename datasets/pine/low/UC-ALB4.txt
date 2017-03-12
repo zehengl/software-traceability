@@ -1,0 +1,17 @@
+Use Case Name: Deleting A Folder And All Its Messages Using Windows System
+Summary: User wants to delete a folder and all its messages using the Windows System
+Actor: Pine E-mail User
+Precondition:  A Windows Command Interface has been evoked and the folder to be deleted exists.
+Description:
+User types "pine" to activate Pine E-mail System.
+System displays Main Menu.
+User presses L (ListFldrs). User sees the Folder List screen.
+User uses the arrow keys or P and N to highlight the folder to delete.
+User deletes the entire folder of messages by pressing D (Delete).The system prompts: Delete "folder"?
+User presses y (yes) to delete the folder and all of its messages.
+The folder is deleted the system returns to the Folder List screen.
+Alternatives:
+User can move messages between folders.
+User can rename folders.
+Postcondition: The folder has been deleted along with all messages within it.
+~

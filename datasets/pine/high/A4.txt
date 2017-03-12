@@ -1,0 +1,1 @@
+The system shall support typing a PDL name into the address field of emails when composing to send messages to all email addresses listed in the PDL.

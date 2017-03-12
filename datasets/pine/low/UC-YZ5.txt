@@ -1,0 +1,17 @@
+(5) Use Case Name: Rename a folder
+Summary: The system shall support the ability to rename folders.
+Actor: Pine user
+Precondition: The computer has installed Pine on Linux platform.
+Description:
+Enter "pine" command in Terminal.
+Either enter "l" or use arrows to make "folder list" line highlighted and enter "Enter"
+Use arrows to select the folder
+Enter "r"
+Enter the new folder name
+Enter "Enter"
+Alternatives:
+If you try to rename a default folder, the system will create another folder with the new
+folder name while keeping the default folder's name unchanged.
+Press ctrl+c to cancel the renaming
+Postcondition: The folder's name is changed to the new name.
+~

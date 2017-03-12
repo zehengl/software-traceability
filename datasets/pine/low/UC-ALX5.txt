@@ -1,0 +1,15 @@
+Use case name: View timestamp
+Use case ID: CASE_G11
+Tests requirement(s): G11
+Summary: User views timestamp on message
+Actor: User
+Precondition: User is at main menu
+Description:
+User views messages in folder
+User views a certain message
+Timestamp is displayed in message description
+Alternatives:
+- Folder contains no messages to view
+- User does not view a folder
+- User does not view a message
+~

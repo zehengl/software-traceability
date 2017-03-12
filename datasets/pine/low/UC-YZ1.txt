@@ -1,0 +1,18 @@
+(1) Use Case Name: Display a message index.
+Summary: The system shall display a message index that shows a listing of all
+messages in a particular folder including status(read/unread), sender, size, date and
+subject.
+Actor: Pine user
+Precondition: The computer has installed Pine on Linux platform.
+Description:
+Enter "pine" command in Terminal.
+Either enter "l" or use arrows to make "folder list" line highlighted and enter "Enter"
+Use arrows to select the folder
+Simply enter "Enter"
+Alternatives:
+If a message index is empty, then "PINE 4.64 MESSAGE INDEX Folder: foldername No
+Messages" is shown instead.
+Postcondition: The system displays a message index that shows a listing of all
+messages in a particular folder including status(read/unread), sender, size, date and
+subject.
+~

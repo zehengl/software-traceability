@@ -1,0 +1,12 @@
+Use case name: Access help system
+Use case ID: CASE_G10
+Tests requirement(s): G10
+Summary: User accesses help system
+Actor: User
+Precondition: User is in PINE
+Description:
+User presses help key
+Postcondition: Relevant help text is displayed
+Alternatives:
+- User presses a key that isn't help: help is not displayed
+~

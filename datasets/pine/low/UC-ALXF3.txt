@@ -1,0 +1,15 @@
+Use Case Name: Move between folders
+Use Case ID: CASE_F3
+Summary: User moves between folders
+Actor: User
+Precondition: Main menu is displayed, default folders are available
+Description:
+User presses Folder List
+User presses arrow keys to highlight desired folder.
+User presses enter key.
+Postcondition: New folder's contents are displayed
+Alternatives:
+- User does not press enter to select a new folder
+- User selects folder he is already looking at
+- User does not press Folder List
+~

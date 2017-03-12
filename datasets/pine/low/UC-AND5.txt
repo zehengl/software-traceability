@@ -1,0 +1,12 @@
+Use Case Name: Warning on non-empty folder deletion
+Use Case ID: UF6
+Summary: The user should be warned if trying to delete a non-empty folder
+Actor: Pine User
+Precondition: Pine is running and the folder list is being displayed
+Description:
+1)	The user selects a folder to remove
+2)	Because the folder is not empty, the system issues a warning that the folder is not empty and provides two choices, delete the folder anyway, or return to the folder list.
+3)	The user chooses the action they desire (to delete anyway or return to the list).
+Alternatives:
+) The folder is empty and is immediately removed.
+~

@@ -1,0 +1,10 @@
+Use Case Name	Add addresses
+Summary	The user captures addresses from received mail
+Actor	Pine use
+Pre-condition	The user logs into the pine system
+Use Case ID	UC.R.1
+Description	1.	The system displays a listing of all available mail.
+The user navigates to the personal address book.
+The address book contains the addresses from all the received mail.
+Post-condition	The addresses from all the received mail are added to the personal address book.
+~

@@ -1,0 +1,27 @@
+Use Case ID: UC_WB_3
+Requirements: G9, G11, G12, R8, C2, C4,
+Use Case Name: Reply Mail
+Summary: User searches for a mail and replies it to the sender
+Actor: Pine user
+Precondition: User has logged in Pine, there are mails in the system
+Description:
+User selects to use the "search" function
+User inputs the keyword
+The system searches from the mails based on the keyword
+The system lists all found mails by using a text based interface
+User selects a mail from the result
+System displays the content of the mail by using a text based interface
+User edits the reply content using all features provided by Pico.
+User selects to add attachment.
+The system asks the user to select the attachment
+User selects the attachments he/she want to send.
+The system adds the attachments to the mail
+User selects the "reply" function.
+The system sends the mail to the original sender
+The system embeds in a date/timestamp of when the mail is sent.
+Alternatives:
+If the system does not found any mail, it will display a empty list
+If user selects some unexisted files, the system will not add the files
+If user selects to cancel before he/she selects "reply", the system will not save the changes user made
+Postcondition: The mail is modified and replied to the original sender and added a timestamp for the mail.
+~

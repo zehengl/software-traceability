@@ -1,0 +1,1 @@
+The system shall support the ability for users to create folder to store mail.

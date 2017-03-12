@@ -1,0 +1,20 @@
+Use Case ID: UC_WB_1
+Requirements: G5, G8, G9, N3, R1, R3, F2
+Use Case Name: Read Mail
+Summary: User check a folder and read unread emails
+Actor: Pine user
+Precondition: User has logged in Pine, there are unread mails with attachment in a folder
+Description:
+User selects the folder
+The system displays a index of all mail in the folder including status (read/unread)
+User selects an unread mail.
+The system changes the status of the mail to be "read"
+The system displays the content of the mail using a text based interface
+User selects to download the attachment
+The system downloads the attachment
+User selects "captures address" function
+The system saves the address to the address book
+Alternatives:
+If the address of the mail has existed in the address book, the system will not add it for twice.
+Postcondition: The status of mail is changed to "read", the address is added to the address book.
+~

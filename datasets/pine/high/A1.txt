@@ -1,0 +1,1 @@
+The system shall have an address book available to store contacts.

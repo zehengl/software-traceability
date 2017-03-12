@@ -1,0 +1,1 @@
+Folders shall be allowed to be stored either locally or on remote hosts.

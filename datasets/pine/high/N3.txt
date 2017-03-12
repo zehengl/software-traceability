@@ -1,0 +1,1 @@
+The system shall be able to display a message index that shows a listing of all messages in a particular folder including status (read/unread), sender, size, date, and subject.

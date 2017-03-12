@@ -1,0 +1,19 @@
+Use Case Name:- Message and Folder Access via IMAP
+Requirement Covered:- F10
+Summary:- The user must be able to  message and access folder via IMAP using a valid email account.
+Actor:- Pine User.
+Precondition:- The server in which user has account must support IMAP access.
+Use Case Id:- UCF10
+Description:-
+1) the user opens pine by entering "pine" in the terminal.
+2) enter "s" to configure pine options.
+3) enter "c" to set features which are default.
+4) select any folder you want to get using the arrow keys.
+5) specify the name of the folder and domain name of the remote machine using the syntax
+{ imap host name/user=xyz} name of the folder.
+6) the pine will try to login with the provided username on the given server and prompts the user to enter password.
+7) the user enters the password and the pine successfully login in the remote server.
+8) the user can view the folder in the folder list by entering "l".
+9) select the folder and then press ">" in order to view the messages in it.
+Post condition:- the user will be able to send messages and access folders using IMAP.
+~

@@ -1,0 +1,29 @@
+Use case name: Move messages between folders
+Use case ID: CASE_F4
+Tests requirement(s): F4
+Summary: User wants to move a message from one folder to another
+Actor: User
+Precondition:	Message is saved in arbitrary folder 'folder1'
+Arbitrary folder 'folder2' exists
+Folder1 is current folder
+Main menu is displayed
+Description:
+User presses Message Index.
+User selects a message.
+User presses Save
+System prompts for a folder
+User specifies folder2
+System prints that the message is saved to folder2 and deleted
+User presses Quit
+System prompts to confirm quit
+User presses [Yes]
+System prompts to expunge message from folder1
+User presses [Yes]
+Postcondition: Message is moved from folder1 to folder2, PINE quits.
+Alternatives:
+- User does not press message index or select a message: no message is displayed.
+- User does not push save: no prompt is displayed
+- User specifies a nonexistent folder: message is not saved.
+- User does not quit program, expunge prompt is not displayed
+- User does not expunge message, message is not moved
+~

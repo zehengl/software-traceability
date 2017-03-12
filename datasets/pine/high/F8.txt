@@ -1,0 +1,1 @@
+Folders shall be able to be nested in a tree structure.

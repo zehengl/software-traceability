@@ -1,0 +1,13 @@
+Use Case Name: Spell check
+Use Case ID: UC4
+Summary: The user activates the spell check feature on a message being composed
+Actor: Pine User
+Precondition: Pine is running and the user is composing (editing) a message.
+Description:
+1)	The user selects the spell check option from the menu
+2)	For each word not appearing in the spell check dictionary, the user will be prompted with three spellings suggestions of the word in question, or an option to provide a replacement word.
+3)	For each word prompted, the user selects one of the possible options
+4)	After all words have been checked, the program will return to the last editing position.
+Alternatives:
+) The user cancels the spell check prior to completion.
+~

@@ -1,0 +1,16 @@
+(2) Use Case Name: Delete an email message
+Summary: The system shall allow users to delete email messages.
+Actor: Pine user
+Precondition: The computer has installed Pine on Linux platform.
+Description:
+Enter "pine" command in Terminal.
+Either enter "l" or use arrows to make "folder list" line highlighted and enter "Enter"
+Use arrows to select the folder
+Simply enter "Enter"
+Use arrows to select the message
+Enter "d"
+Alternatives:
+If a message index is empty, then "No messages to Delete" is shown instead.
+Postcondition: A "D" shows up in the first column of the corresponding message. At
+the bottom "x-th message marked for deletion" is shown.
+~

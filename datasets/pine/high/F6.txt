@@ -1,0 +1,1 @@
+If a folder is not empty and the user prompts to delete the folder, the system shall issue a warning and allow the user to choose whether to delete the folder or return to the folder list.

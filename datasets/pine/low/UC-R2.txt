@@ -1,0 +1,14 @@
+Name: News Reader
+Summary: User connects to NNTP usenet server and retrieves a list of available newsgroups.
+Actor: Alpine user
+Precondition: An NTTP server is set in Alpine config settings. Main menu is displayed.
+Description:
+Select Folder List.
+Select the NNTP server from the list (e.g. msnews.microsoft.com/nntp).
+Press Add then ^T to retrieve a list of newsgroups from the server.
+Select a newsgroup from the list (e.g. microsoft.pubic.vc.stl) and Subscribe.
+Select the newly added newsgroup and press ENTER.
+Postcondition: A list of messages headers is downloaded from the newsgroup and displayed on the screen.
+Alternatives:
+-Connection to server fails (invalid server or connection timeout).
+~

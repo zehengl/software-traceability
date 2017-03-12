@@ -1,0 +1,1 @@
+The user shall be able to select multiple message or folders at once and perform aggregate operations on these (i.e. delete a list of 5 messages or move those messages to a particular folder).

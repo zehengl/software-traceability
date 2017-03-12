@@ -1,0 +1,19 @@
+Use Case ID: UC5_WB
+Requirements: R8
+Use Case Name: Reply Email
+Summary: User select an email and reply it to its sender
+Actor: Pine User
+Precondition: a mail "test reply" sent from other address exists in INBOX
+Description:
+User selects INBOX
+User selects the mail "test reply"
+Pine displays the content of the mail
+User add contents in the mail
+User selects to reply the mail
+Pine sends the mail to the sender
+Pine embeds in a date/timestamp of when the mail is sent.
+Alternative:
+If user selects to cancel before he/she replies the email, Pine will not reply the mail and will not save the changes user made.
+Postcondition:
+The email is replied
+~

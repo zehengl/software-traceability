@@ -1,0 +1,25 @@
+Use Case Name: Forwarding A Message On Unix System
+Summary: User wants to forward a message on Unix System
+Actor: Pine E-mail User
+Precondition:  A Unix Shell has been evoked and the SMTP Protocol has been set up.
+Description:
+User types "pine" to activate Pine E-mail System.
+System displays Main Menu.
+User presses L (ListFldrs) to select a message to forward
+User selects a message by pressing <Return>.
+User forwards the message by pressing F.
+User enters the e-mail address to send to under "To."
+User presses <Return> to skip Cc: and another <Return> to skip Attachment.
+User can replace the forwarding subject of the message.
+User can add message using Pico as the edition client.
+The user presses "^X" or "Ctrl X" to send the message.
+The system asks for a send confirmation.
+The user types in "y" to confirm sending the message.
+The system forwards/sends the message and returns to the Main Menu.
+Alternatives:
+User wants to attach a file with the forwarded message.
+If the user wants to send a blind copy of the message, the user specifies the address(es) under "Bcc."
+If the user wants to send a copy of the message, the user specifies the address(es) under "Cc."
+If the user wants to check for grammar before sending the message,  the user can choose for Spelling Check.
+Postcondition: The message has been forwarded.
+~

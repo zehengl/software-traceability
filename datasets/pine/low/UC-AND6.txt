@@ -1,0 +1,11 @@
+Use Case Name: Tree structured folders
+Use Case ID: UF8
+Summary: The user should be able to view the folders as a nested tree
+Actor: Pine User
+Precondition: Pine is running and the folder list is being displayed
+Description:
+1) The user should be able to select a folder to expand/hide the tree structure of folders beneath the folder. The tree structure should be displayed to make it clear which folders are sub-folders of another folder.
+Alternatives:
+) There are no folders, so no folders are displayed
+) There are no sub-folders, so only one level of folders is displayed.
+~

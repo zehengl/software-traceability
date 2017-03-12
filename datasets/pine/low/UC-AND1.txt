@@ -1,0 +1,13 @@
+Use Case Name: Menu Shortcut Key
+Use Case ID: UN2
+Summary: User pushes the shortcut keys to activate a menu
+Actor: Pine User
+Precondition: Pine is running and in its starting state
+Description:
+The user decides to activate a menu using the shortcut keys and take the following steps:
+1)	Press and hold either 'CTRL' key
+2)	Press the key corresponding to the underlined character in the menu
+3)	The functionality the menu describes should be activated (i.e., Main menu, Exit, Help, etc.)
+Alternatives:
+) The user did not press a key corresponding to a menu. Nothing should occur in this case.
+~

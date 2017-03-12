@@ -1,0 +1,6 @@
+A menu shall be displayed at the bottom of the client that minimally allows for navigation to the following:
+Main menu
+Exit
+Help
+Previous
+Next

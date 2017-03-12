@@ -1,0 +1,20 @@
+Use Case ID: UC3_WB
+Requirements: C6
+Use Case Name: Send Email to Multiple Addresses
+Summary: User send an email to multiple addresses
+Actor: Pine User
+Precondition: Pine is running
+Description:
+User selects to compose email
+Pine displays the interface for composing email
+User moves the cursor to the address bar
+User add multiple addresses in address bar
+User selects to send the email
+Pine sends the mail to all the addresses
+Pine embeds in a date/timestamp of when the mail is sent.
+Alternative:
+If no address is selected, Pine will warn the user and will not send the mail
+If user selects to cancel before he/she send the email, Pine will not send the email
+Postcondition:
+The mail is sent to multiple addresses.
+~

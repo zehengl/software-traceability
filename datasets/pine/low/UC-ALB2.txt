@@ -1,0 +1,25 @@
+Use Case Name: Sending An Attachment In A Message Using Unix System
+Summary: User sends an attachment in a message using the Unix system
+Actor: Pine E-mail User
+Precondition:  A Unix Shell has been evoked and the SMTP mail protocol has been set up.
+Description:
+User types "pine" to activate Pine E-mail System.
+System displays Main Menu.
+The user types "c" to compose a message using a text-based interface.
+The system brings up a new menu called "Compose Message."
+The user enters the e-mail address to send to under "To."
+The user presses "Ctrl J" to attach a file using MIME specification onto the message.
+The user selects the file to attach and presses "Enter" to skip the attachment comment.
+The user types the subject of the message on the field "Subject."
+The user types in the message using Pico as the edition client.
+The user presses "^X" or "Ctrl X" to send the message.
+The system asks for a send confirmation.
+The user types in "y" to confirm sending the message.
+The system sends the message, copies the message sent to "sent-mail" folder, and returns to the Main Menu.
+Alternatives:
+If the message is for a newsgroup, the user enters the address of the newsgroup under "Newsgrps."
+If the user wants to send a blind copy of the message, the user specifies the address(es) under "Bcc."	COUNTED THESE AS UCSE CASE ADDRESSING
+If the user wants to send a copy of the message, the user specifies the address(es) under "Cc."
+If the user wants to check for grammar before sending the message,  the user can choose for Spelling Check.
+Postcondition: The attachment has been sent with the message and a copy of the sent message has been stored in the folder "sent-mail."
+~

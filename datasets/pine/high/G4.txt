@@ -1,0 +1,1 @@
+The system shall be evoked by typing "pine" into a command or shell prompt.

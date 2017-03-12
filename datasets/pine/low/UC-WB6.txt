@@ -1,0 +1,16 @@
+Use Case ID: UC_WB_6
+Requirements: G10, N1, N2, R4, A1, F8
+Use Case Name: Help Information
+Summary: User check the tips and explanation for items
+Actor: Pine user
+Precondition: User has logged in Pine
+Description:
+User selects the address book and select "Help" in the menu
+The system provides the explanation for the address book
+User selects the folder structure tree and press control and H
+The system provides the explanation for the folder
+User selects the interface for displaying mail and select "Help" in the menu
+The system provides the explanation for the text based interface
+Alternatives:
+Postcondition: System provided help tips and explanations
+~

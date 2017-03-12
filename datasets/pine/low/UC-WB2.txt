@@ -1,0 +1,28 @@
+Use Case ID: UC_WB_2
+Requirements: G5, G7, G9, G11, A1, C1, C3, C4, C5, C6, C7, C8, C9,
+Use Case Name: Send a New Mail
+Summary: User write a new mail and send it to multiple mail address
+Actor: Pine user
+Precondition: User has logged in Pine, there are addresses in address book
+Description:
+User selects to create a new mail.
+The system displays a text based interface to compose mail
+User inputs the subject
+User edits the mail content using all features provided by Pico.
+User selects spell checking function
+The system offers 3 suggestions or the ability to type a user-specified replacement for misspelled words
+User selects the address book.
+The system displays the addresses in the address book
+User selects the addresses he/she wants to send mail to
+User sets some of the addresses to be bcc
+User sets some other of the addresses to be cc
+Users selects the "send" function
+The system sends the mail to all addresses
+The system embeds in a date/timestamp of when the mail is sent.
+Alternatives:
+If user chooses to leave a misspelled word, the spell check function will ignore the word.
+If no address is selected, the system will not send the mail
+If user selects to cancel before he/she selects "send", the system will not save the changes user made
+If user does not find the address in the address book, he/she input it by himself/herself
+Postcondition: The system sent the mail to all addresses specified and added a timestamp for the mail.
+~

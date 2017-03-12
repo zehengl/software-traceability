@@ -1,0 +1,16 @@
+Use Case Name	Search messages using regular expressions
+Summary	User logs in into pine in a windows operating system and searches for messages using regular expressions.
+Actor	Pine user
+Pre-condition	The system is displaying the command/DOS interface.
+Use case ID	UC.G.13
+Description	1.	User enters the pine system by typing "pine" into the command prompt.
+User enters the username and password into the command prompt.
+User navigates to the folders list and selects a folder.
+The system shows a listing of all available mail in that folder.
+The user uses regular expressions in search to find mail messages.
+The system displays the listing of all mail messages that satisfy the search criteria.
+Alternatives	1.	If the user enters either incorrect username or password, the system prompts the user to enter correct username and password.
+If the search criteria are not satisfied, then the system displays that no mail messages satisfy the search.
+If the user enters any character or expression other than the allowed ones, then the system displays a message saying about the allowed characters.
+Post-condition	The user finds the listing of all mail messages which satisfy the search criteria.
+~

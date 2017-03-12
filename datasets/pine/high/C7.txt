@@ -1,0 +1,1 @@
+If multiple addresses are specified for an email message, all or some of these shall be allowed to be bcc (blind carbon copy).

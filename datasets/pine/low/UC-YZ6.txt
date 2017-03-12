@@ -1,0 +1,18 @@
+(6) Use Case Name: Send an email
+Summary: The system shall support the ability to perform a send only operation.
+Actor: Pine user
+Precondition: The computer has installed Pine on Linux platform.
+Description:
+Enter "pine" command in Terminal.
+Either enter "c" or use arrows to make "compose message" line highlighted and
+enter "Enter"
+Enter To, Cc, Attchmnt, Subject
+Enter the message body
+Enter ctrl+x to send the message
+Enter "y"
+Alternatives:
+Enter ctrl+x to send the message and "n" to cancel sending
+Press ctrl+c to cancel the composing
+Postcondition: Return to the main menu. At the bottom "Message sent and copied to
+"sent-mail"" is shown.
+~

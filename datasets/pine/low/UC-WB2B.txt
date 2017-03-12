@@ -1,0 +1,20 @@
+Use Case ID: UC2_WB
+Requirements: A2
+Use Case Name: Add contact to address book
+Summary: User add information about a contact to address book
+Actor: Pine User
+Precondition: Pine is running
+Description:
+User selects "Address Book"
+Pine displays the content in address book
+User selects to add contact
+Pine displays the interface for adding contact
+User add contact""s name, email, address (including street, apartment/office number, city and zip), and phone number
+User selects to add the information
+Pine add the contact information to address book
+Alternative:
+If user does not input name, email and selects to add the information, Pine will show a warning message and will not add the information
+If user selects to cancel instead of adding the information, Pine will not add anything to address book
+Postcondition:
+The contact's information is added to address book.
+~

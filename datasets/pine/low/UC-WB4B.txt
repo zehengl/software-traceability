@@ -1,0 +1,17 @@
+Use Case ID: UC4_WB
+Requirements: F5, F6
+Use Case Name: Delete Folder
+Summary: User delete a folder and all messages in it
+Actor: Pine User
+Precondition: There is a folder "test delete folder" which contains three mails
+Description:
+User selects the folder "test delete folder"
+User selects to delete the folder
+Pine asks if user want to delete and folder and all mails in it
+User confirms that he/she want to delete the folder
+Pine deletes the folder "test delete folder" and all the three mails in it
+Alternative:
+If user does not confirm that he/she want to delete the folder, Pine will not make any change to the folder and the mails in it.
+Postcondition:
+Pine deletes the folder "test delete folder" and all the three mails in it.
+~

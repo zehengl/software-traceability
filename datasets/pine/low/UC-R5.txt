@@ -1,0 +1,12 @@
+Use Case Name	Print message
+Summary	The user selects a message and prints the mail message
+Actor	Pine user
+Pre-condition	The user logs in to the pine system.
+Use Case ID	UC.R.5
+Description	1.	The system displays a listing of all the available mail messages.
+The user navigates to a folder.
+The user selects a message and opts to print it.
+The system prints the message to the printer.
+Alternatives	If the user does not select any message and tries printing, then the system displays a message asking the user to select at least one message.
+Post-condition	The selected message is printed.
+~

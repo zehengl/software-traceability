@@ -1,0 +1,13 @@
+Use Case Name: Save email messages or attachments externally
+Use Case ID: UR1
+Summary: User instructs the system to save a message or attachment
+Actor: Pine User
+Precondition: Pine is started and an email has been opened and is being displayed
+Description:
+1)	The user selects to save the message or attachment via the menu
+2)	The user selects the location and name of the external saved file
+3)	The file is stored to the location specified in 2
+Alternatives:
+) The user selected to save an attachment when none exists. Nothing should happen in this case.
+) The user selected a non-existent or read-only save location. In this instance, the system should prompt the user to try again or cancel.
+~

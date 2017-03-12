@@ -1,0 +1,1 @@
+The system shall allow a text search that users may use to find mail messages.

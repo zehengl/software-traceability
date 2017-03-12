@@ -1,0 +1,25 @@
+Use Case ID: UC_WB_quiz
+Requirements: G6
+Use Case Name: Receive and Send Mail
+Summary: User read a received mail and send a new mail
+Actor: Pine user
+Precondition: an unread mail "test receive" exists in INBOX.
+Description:
+User selects a folder
+The system displays a index of all mail in the folder including status (read/unread)
+User selects an unread mail.
+The system changes the status of the mail to be "read"
+The system displays the content of the mail using a text based interface
+User selects to create a new mail.
+The system displays a text based interface to compose mail
+User inputs the subject
+User edits the mail content using all features provided by Pico.
+User sets some of the addresses to be To
+Users selects the "send" function
+The system sends the mail to all addresses
+The system embeds in a date/timestamp of when the mail is sent.
+Alternative:
+If no address is selected, the system will not send the mail
+If user selects to cancel before he/she selects "send", the system will not save the changes user made
+Postcondition: The unread mail is marked "read". The new mail is sent to the address
+~

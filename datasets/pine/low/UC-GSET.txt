@@ -1,0 +1,15 @@
+Use Case Name	Search messages
+Summary	User logs in into pine in a windows operating system and searches for messages
+Actor	Pine User
+Pre-condition	The system is displaying the command/DOS interface
+Use Case ID	UC.G.1
+Description	1.	User enters the pine system by typing "pine" into the command prompt.
+User enters the username and password into the command prompt.
+The system shows a listing of all available mail.
+The user uses a text search to find mail messages.
+The system displays the listing of all mail messages that satisfy the search criteria.
+Alternatives	1.	If the user enters either incorrect username or password, the system prompts the user to enter correct username and password.
+If the search criteria are not satisfied, then the system displays that no mail messages satisfy the search.
+If the user enters any character other than the allowed ones, then the system displays a message saying about the allowed characters.
+Post-condition	The user finds the listing of all mail messages which satisfy the search criteria.
+~

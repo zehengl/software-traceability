@@ -1,0 +1,1 @@
+Remote message and folder access via Internet Message Access Protocol (IMAP) shall be supported.

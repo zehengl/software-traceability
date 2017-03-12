@@ -1,0 +1,1 @@
+When specifying recipients for email messages, the system shall include an auto-complete option to suggest address book entries similar to the address that is partially typed.

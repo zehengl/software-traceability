@@ -1,0 +1,22 @@
+Use Case ID: UC1_WB
+Requirements: R7
+Use Case Name: Forward Email
+Summary: User select an email and forward to other address
+Actor: Pine User
+Precondition: an unread mail "test forward" exists in INBOX
+Description:
+User selects INBOX
+User selects the mail "test forward"
+Pine displays the content of the mail
+User selects to forward the mail
+Pine moves the cursor to the address bar
+User input address in the address bar
+User select the forward function
+Pine sends the mail to the address
+Pine embeds in a date/timestamp of when the mail is sent.
+Alternative:
+If no address is selected, the system will not send the mail
+If user selects to cancel before he/she send the email, the system will not send the email
+Postcondition:
+The email is forwarded to the address specified by user
+~

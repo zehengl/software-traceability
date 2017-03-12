@@ -1,0 +1,1 @@
+The system shall use Pico as the editing client and support all editing features available in Pico (copy, paste, cut, select, select all, bold, italic, underline, justify (center, right, left, indent).

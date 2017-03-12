@@ -1,0 +1,16 @@
+(4) Use Case Name: Delete a folder
+Summary: The system shall support the ability to delete folders, including all messages
+in them.
+Actor: Pine user
+Precondition: The computer has installed Pine on Linux platform.
+Description:
+Enter "pine" command in Terminal.
+Either enter "l" or use arrows to make "folder list" line highlighted and enter "Enter"
+Use arrows to select the folder
+Enter "d"
+Enter "y"
+Alternatives:
+If you enter "d" by accident, simply enter "n" to cancel the deletion. At the bottom
+"Nothing deleted" is shown.
+Postcondition: At the bottom "folder foldername deleted" is shown.
+~

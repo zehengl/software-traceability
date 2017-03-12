@@ -1,0 +1,15 @@
+Use Case Name: Pine Operates Through A Command/DOS Interface On Windows
+Test Requirement:  G3
+Use case ID: CASE_G3
+Summary: Activating Pine through the command line on Windows
+Actor: User
+Precondition: The computer has installed Pine on Windows.
+Description:
+User clicks on Windows "Start Menu" and selects "Run."
+User types "cmd" and click "OK."
+User types "pine" to activate Pine system on Windows.
+Postcondition: Pine is ready to use and the main menu is displayed.
+Alternatives:
+- User types "command,"  "CMD," "Cmd,"  etc. instead of "cmd"
+- User types "cmd" and click "Enter" instead of "OK" button
+~

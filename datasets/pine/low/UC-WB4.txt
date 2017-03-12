@@ -1,0 +1,29 @@
+Use Case ID: UC_WB_4
+Requirements: G11, R4, R7, A1, A2, A4, C3, C10
+Use Case Name: Forward Mail
+Summary: User selects a mail and forward it to other addresses.
+Actor: Pine user
+Precondition: User has logged in Pine, the system displays a list of available mails, and there are some PDLs in the address book
+Description:
+User selects a mail
+The system displays the mail content by using a text based interface
+User edits the forward content using all features provided by Pico.
+User selects the address book.
+The system displays the addresses in the address book
+User inputs a PDL name into the address field
+The system adds all addresses in the PDL to the address field
+User partially inputs an address
+The system suggest address book entries similar to the partially typed address
+User selects the address he/she wants from the suggestions.
+User selects "forward" function
+The system sends the mail to all address specified
+The system embeds in a date/timestamp of when the mail is sent.
+Alternatives:
+If user does not find the address in the address book, he/she input it by himself/herself
+If user selects to cancel before he/she selects "reply", the system will not save the changes user made
+If user does not want to use the addresses suggested by the system, he/she will input the new address
+If user does not input an address which is partially similar with the addresses in the address book, the system will not provide any suggestion
+If user selects to forward the mail without changing anything, the system will send it to all the addresses specified
+If user does not input any address, the system will not send the mail.
+Postcondition: The mail is modified and replied to the addresses specified and added a timestamp for the mail.
+~

@@ -1,0 +1,23 @@
+Use Case: Creating Folders
+Use Case ID: FL- 9
+Summary: Store folders locally or remotely.
+Test Requirements: T_FL-9
+Primary Actor: User
+Goal in Context: Store folders either locally or on remote hosts.
+Preconditions:  The state of the Pine application is the Main screen.
+Folder "Folder1" does not exist locally
+Post condition:  A folder "Folder1" is created locally.
+Trigger: User enters "S".
+Description:
+User enters "L" for list of Folders.
+User enters "A" to add a folder.
+System prompts for a folder name.
+User enters "Folder1" to create a folder and hits "enter"
+System displays the message the the "folder  created".
+User presses M for main menu
+User presses Q to quit.
+System displays a message with prompts to confirm quit.
+User presses "Y".
+Alternatives:
+- At step #4, user presses Control X to create a directory: a prompt asking about directory creation is displayed.
+~

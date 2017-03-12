@@ -1,0 +1,16 @@
+Use Case Name: Operation on Unix and Windows
+Requirement: G1
+Use Case ID: UG1
+Summary: User launches pine on Unix and Windows
+Actor: Pine User
+Precondition: None
+Description:
+The user launches pine on Unix or Windows, whichever system he/she has.
+Alternatives: None
+Post Condition: Pine will have been launched properly on the user's Unix or Windows system.
+Use Case Scenario ID: USG1
+Use Case Scenario Corresponding Use Case: UG1
+Use Case Scenario description:
+1)	User launches pine on Unix or Windows
+2)	Pine starts properly
+~

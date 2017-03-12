@@ -1,0 +1,1 @@
+The system search feature should support the use of regular expressions in search.

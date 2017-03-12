@@ -1,0 +1,1 @@
+The underlined character in each menu selection shall be a shortcut key.  When control and the shortcut key are pressed, the menu selection should be loaded.

@@ -1,0 +1,23 @@
+Use Case Name: Adding Single E-mail Addresses To An Address Book
+Summary: User wants e-mail addresses to an address book manually using Unix System
+Actor: Pine E-mail User
+Precondition:  A Unix Shell has been evoked, the SMTP mail protocol has been set up, and an address book exists.
+Description:
+User types "pine" to activate Pine E-mail System.
+System displays Main Menu.
+User presses A (AddrBook).
+The system displays the Address Book List screen.
+User highlights the address book to add and presses <Return>.
+User adds a new contact by pressing @ (AddNew).
+The system displays entries to fill: Nickname, Fullname, Fcc (copy to folders), Comment, Addresses.
+User enters information on the fields (it"s OK to leave fields blanks).
+User enters single e-mail addresses under "Addresses" and separate them by a comma.
+User saves the entries by pressing <Ctrl X>.
+The system asks for a saving confirmation.
+User confirms and the system returns to the Address Book List screen.
+Alternatives:
+User can delete entries in Address Book.
+User can update existing entries in Address Book.
+User can print entries in Address Book.
+Postcondition: Single addresses have been added onto the Address Book.
+~

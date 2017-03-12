@@ -1,0 +1,24 @@
+Use Case ID: UC_WB_5
+Requirements: G14, N3, R6, F1, F4, F5, F6, F7, F8,
+Use Case Name: Edit Folders
+Summary: User create new folder, move mails to the new folder, and delete the old folder
+Actor: Pine user
+Precondition: User has logged in Pine, there is a folders which contains some mails
+Description:
+The system displays the folder in a tree structure.
+User selects "create folder" function
+The system creates a new folder.
+User renames the new folder.
+User selects another folder
+The system displays a index of all mail in the folder including related information
+User selects half of the mails at the same time.
+User moves the mails to the new folder
+User selects "delete" function for the old folder.
+The system issue a warning and asks the user to choose whether to delete the folder.
+User selects to delete the folder
+The system deletes the old folder and all mails in this folder
+Alternatives:
+If user rename the new folder to be the same as the old folder, the system will not allow the operation
+If user selects "not delete" when the system issues a warning, the system will not delete the old folder.
+Postcondition: The new folder is created and contains the selected mails. The old folder and all mails in it are deleted
+~

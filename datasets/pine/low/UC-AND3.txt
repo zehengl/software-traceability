@@ -1,0 +1,14 @@
+Use Case Name: Address book entry viewing.
+Use Case ID: UA2
+Summary: User views an entry in the address book
+Actor: Pine User
+Precondition: Pine is running and the address book is being displayed
+Description:
+1)	The user can select to view an address book entry which has the following fields:
+contact's name
+email
+address (street/apt/office/city/zip)
+phone number
+Alternatives:
+) No address book entries yet exist. In that case, no entries will be displayed until the user adds an entry.
+~

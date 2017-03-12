@@ -1,0 +1,13 @@
+Use Case Name	Navigate folders
+Summary	The user evokes the pine system and navigates to folders and uses short cut keys.
+Actor	Pine user
+Pre-condition	The user logs in to the pine system
+Use Case ID	UC.N.1
+Description	1.	The system displays a message index that shows a listing of all messages in a particular folder including status(read/unread), sender, size, date and subject.
+The user navigates to any of the folders.
+The user sees a listing of all available mail in that folder.
+The user hits Ctrl+P.
+The user returns to the previous screen.
+Alternatives	If a folder has no messages in it, then the system should display a message saying there are no messages in this folder.
+Post-condition	The user goes to the previous page after hitting Ctrl+P.
+~

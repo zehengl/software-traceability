@@ -1,0 +1,1 @@
+The composing system based on Pico shall have a spell check option that offers 3 suggestions or the ability to type a user-specified replacement for misspelled words.

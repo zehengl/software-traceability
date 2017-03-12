@@ -1,0 +1,18 @@
+(3) Use Case Name: Store a contact's information
+Summary: The address book should store a contact's name, email, address and phone
+number.
+Actor: Pine user
+Precondition: The computer has installed Pine on Linux platform.
+Description:
+Enter "pine" command in Terminal.
+Either enter "a" or use arrows to make "address book" line highlighted and enter
+"Enter"
+Enter "@"
+Enter Nickname, Fullname, Fcc, Comment and Addresses. May leave some fields
+blank.
+Press ctrl+X to save the entry
+Alternatives:
+If there is a list for the address field, just enter "," to separate each entry of the list.
+Press ctrl+c to cancel the entry
+Postcondition: A new entry should appear in the address book.
+~

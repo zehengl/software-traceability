@@ -1,0 +1,13 @@
+Use Case Name	Delete folders
+Summary	User deletes the folders with all messages in them.
+Actor	Pine user
+Pre-condition	The user logs in to the pine system.
+Use Case ID	UC.F.2
+Description	1.	The system displays a listing of all the available mail messages.
+The user views the listing of all available folders.
+The user selects a folder and prompts to delete it.
+The system checks if the folder is empty and issues a warning if the folder is not empty.
+The system allows the user to choose whether to delete the folder or return to the folder list.
+If the user chooses to delete it, the system deletes the folder.
+Post-condition	The system deletes the folder as selected by the user.
+~

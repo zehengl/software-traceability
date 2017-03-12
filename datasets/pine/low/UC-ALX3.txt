@@ -1,0 +1,30 @@
+Use case name: Go to main menu using shortcut key
+Use case ID: CASE_N2
+Tests requirement(s): N1, N2
+Summary: User goes back to the main menu
+Actor: User
+Precondition:	User is not in the main menu
+Description:
+User presses CTRL+M
+Postcondition: User is at the main menu
+Alternatives:
+- User is already at main menu, CTRL+M should have no effect
+Case 4:
+Use case name: Store all supported information in address book entry
+Use case ID: CASE_A2
+Tests requirement(s): A2, A3/Create
+Summary: User creates an address book entry that contains contact name, email, address 	(including street, apartment/office number, city and zip), and phone number.
+Actor: User
+Precondition: User is at main menu
+Description:
+User presses Address book.
+User presses Add New.
+User enters contact name, email, address, and phone number in appropriate
+fields.
+User presses Exit/Save
+Postcondition: Entry is added to address book with entered information.
+Alternatives:
+- User does not add new: new entry is not created
+- User does not enter all fields: new entry is created with missing fields.
+- User does not save entry: entry is not added to address book
+~

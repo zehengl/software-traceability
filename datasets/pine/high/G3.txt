@@ -1,0 +1,1 @@
+On Windows, the system shall operate through a command/DOS interface.

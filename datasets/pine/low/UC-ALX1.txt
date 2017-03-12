@@ -1,0 +1,29 @@
+Use case name: Blind Carbon Copy
+Tests requirement(s): C7
+Use case ID: CASE_C7
+Summary: User sends mail with a single BCC address.
+Actor: User
+Precondition: Main menu is displayed
+Description:
+User presses Compose message
+User enters no addresses in the "to" field or "cc" field"
+User enters a single address into the bcc field.
+Note: While requirement C7 states that multiple addresses must be
+specified for BCC, it also states that all addresses may be entered into
+BCC, implying that the sole address for the message may be BCC.
+User enters a subject.
+User writes a message.
+User pushes send.
+System prompts: "Send message?"
+User pushes 'y'
+Postcondition: Message sends successfully and a copy is saved in the sent-mail folder.
+Alternatives:
+- User does not choose to compose message
+- User enters addresses in to and/or cc: message sends successfully
+- User enters multiple addresses into bcc field: message sends successfully.
+- User enters no addresses into bcc field: message sends successfully.
+- User does not enter a subject: message sends successfully.
+- User does not write a message: message sends successfully.
+- User cancels or postpones message: message does not send.
+- User does not answer yes to send message: message does not send.
+~

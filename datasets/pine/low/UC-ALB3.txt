@@ -1,0 +1,22 @@
+Use Case Name: Viewing Messages Sent In "Sent-Mail" Folder
+Summary: User wants to view messages sent using the Windows System
+Actor: Pine E-mail User
+Precondition:  A Windows Command Interface has been evoked and the SMTP mail protocol has been set up.
+Description:
+User types "pine" to activate Pine E-mail System.
+System displays Main Menu.
+The user types "I" to enter Message Index Menu.
+N2 and F2. The user presses "<" or ">" to list all the folders from which to see messages and selects "sent-mail" folder.
+R4 and G11. The system displays messages in the selected folder using a text-based interface. "By default the messages are listed in Chronological order, oldest to most recent. This order is configurable within Pine, for example messages may be sorted in reverse chronological order, by subject, by size, or by username. Also, messages flagged with an "N" on the left hand side signify new messages that have not been read yet,  A if you have answered the message (using the Reply command),
+or D if you have marked the message for deletion. [Note: If you answer a message as well as mark it deleted (in either order), you only see the "D".] Messages where the left side of the message number is blank represent messages that have been read before but are awaiting some action."
+User presses V (ViewMsg) or presses <Return> to read a selected message.
+To see the next message, press N (NextMsg).
+To see the previous message, press P (PrevMsg)
+To return to the Message Index, press I (Index).
+Alternatives:
+COUNTED THESE AS USE CASE ADDRESSING
+User can move messages between folders.
+User can delete folders, including all messages in them
+User can rename folders.
+Postcondition: User sees all messages inside "sent-mail" folder.
+~

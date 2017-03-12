@@ -1,0 +1,12 @@
+USE CASE NAME:   Pine operates in the shell on the UNIX system.
+SUMMARY:  This use case makes sure that the Pine operates in a shell on any UNIX system.
+ACTOR:  Pine user.
+USE CASE ID: UC G2
+DESCRIPTION:
+The user logs into a UNIX system.
+The user selects the terminal to enter the shell on the UNIX system.
+He types PINE to start the Pine email system.
+To check to see if the PINE is running in the shell, he uses the command ps "ef .
+PINE is listed on the list of currently running processes in the shell.
+ALTERNTIVES: None
+~

@@ -1,0 +1,1 @@
+The system shall be able to list all available folders.

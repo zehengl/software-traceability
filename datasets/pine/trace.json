@@ -1,348 +1,274 @@
 {
-    "R8.txt": [
-        "UC-WB3.txt", 
-        "UC-WB5B.txt"
-    ], 
-    "R3.txt": [
-        "UC-R3.txt", 
-        "UC-WB1.txt"
-    ], 
-    "G7.txt": [
-        "UC-YZ6.txt"
-    ], 
-    "F10.txt": [
-        "UC-F10.txt"
-    ], 
-    "N3.txt": [
-        "UC-ALB3.txt", 
-        "UC-ALX2.txt", 
-        "UC-N2.txt", 
-        "UC-WB1.txt", 
-        "UC-WB5.txt", 
-        "UC-WB7.txt", 
-        "UC-YZ1.txt"
-    ], 
-    "F9.txt": [
-        "UC-F9.txt"
-    ], 
-    "C10.txt": [
-        "UC-WB4.txt"
-    ], 
-    "G10.txt": [
-        "UC-WB6.txt", 
-        "UC-ALX4.txt", 
-        "UC-AND1.txt"
-    ], 
-    "C7.txt": [
-        "UC-ALX1.txt", 
-        "UC-ALB1.txt", 
-        "UC-ALB6.txt", 
-        "UC-ALB2.txt", 
-        "UC-WB2.txt"
-    ], 
-    "G5.txt": [
-        "UC-ALB1.txt", 
-        "UC-ALB2.txt", 
-        "UC-ALB3.txt", 
-        "UC-ALB5.txt", 
-        "UC-ALB6.txt"
-    ], 
-    "R1.txt": [
-        "UC-AND2.txt", 
-        "UC-WB1.txt"
-    ], 
-    "C9.txt": [
-        "UC-ALB6.txt", 
-        "UC-ALB1.txt", 
-        "UC-ALB2.txt", 
-        "UC-N2.txt", 
-        "UC-ALB3.txt", 
-        "UC-ALX1.txt", 
-        "UC-WB2.txt", 
-        "UC-YZ1.txt", 
-        "UC-YZ6.txt", 
-        "UC-WB7.txt"
-    ], 
-    "N1.txt": [
-        "UC-ALB3.txt", 
-        "UC-ALX3.txt", 
-        "UC-AND1.txt", 
-        "UC-WB6.txt"
-    ], 
-    "C3.txt": [
-        "UC-ALB6.txt", 
-        "UC-ALB1.txt", 
-        "UC-ALB2.txt", 
-        "UC-WB4.txt", 
-        "UC-WB3.txt", 
-        "UC-WB2.txt", 
-        "UC-WB7.txt"
-    ], 
-    "G6.txt": [
-        "UC-ALB1.txt", 
-        "UC-ALB2.txt", 
-        "UC-ALX1.txt", 
-        "UC-WB1B.txt", 
-        "UC-WB1.txt", 
-        "UC-F10.txt", 
-        "UC-ALB6.txt", 
-        "UC-WB2.txt", 
-        "UC-WB3.txt", 
-        "UC-WB3B.txt", 
-        "UC-WB4.txt", 
-        "UC-WB5B.txt", 
-        "UC-WB7.txt", 
-        "UC-YZ6.txt"
-    ], 
-    "F7.txt": [
-        "UC-YZ5.txt", 
-        "UC-ALB3.txt", 
-        "UC-WB5.txt", 
-        "UC-ALB4.txt"
-    ], 
-    "R4.txt": [
-        "UC-ALB3.txt", 
-        "UC-WB1.txt", 
-        "UC-WB3.txt", 
-        "UC-WB4.txt", 
-        "UC-WB6.txt", 
-        "UC-WB7.txt"
-    ], 
-    "C1.txt": [
-        "UC-ALB1.txt", 
-        "UC-ALB2.txt", 
-        "UC-WB7.txt", 
-        "UC-WB2.txt"
-    ], 
-    "C6.txt": [
-        "UC-WB3B.txt", 
-        "UC-ALX1.txt", 
-        "UC-WB2.txt", 
-        "UC-WB4.txt", 
-        "UC-ALB1.txt"
-    ], 
-    "G4.txt": [
-        "UC-ALB1.txt", 
-        "UC-ALB2.txt", 
-        "UC-ALB3.txt", 
-        "UC-ALB4.txt", 
-        "UC-ALB5.txt", 
-        "UC-ALB6.txt", 
-        "UC-F10.txt", 
-        "UC-G13.txt", 
-        "UC-G2.txt", 
-        "UC-G3.txt", 
-        "UC-GSET.txt", 
-        "UC-YZ1.txt", 
-        "UC-YZ2.txt", 
-        "UC-YZ3.txt", 
-        "UC-YZ4.txt", 
-        "UC-YZ5.txt"
-    ], 
-    "G12.txt": [
-        "UC-G13.txt", 
-        "UC-GSET.txt", 
-        "UC-WB3.txt"
-    ], 
-    "R6.txt": [
-        "UC-ALB3.txt", 
-        "UC-ALB4.txt", 
-        "UC-F5.txt", 
-        "UC-R6.txt", 
-        "UC-WB4B.txt", 
-        "UC-YZ2.txt", 
-        "UC-YZ4.txt", 
-        "UC-WB5.txt"
-    ], 
-    "A1.txt": [
-        "UC-ALB5.txt", 
-        "UC-YZ3.txt", 
-        "UC-R3.txt", 
-        "UC-WB4.txt", 
-        "UC-WB6.txt", 
-        "UC-WB1.txt", 
-        "UC-ALX3.txt", 
-        "UC-WB2.txt", 
-        "UC-AND3.txt", 
-        "UC-WB2B.txt"
-    ], 
-    "F5.txt": [
-        "UC-ALB4.txt", 
-        "UC-ALB3.txt", 
-        "UC-WB5.txt", 
-        "UC-F5.txt", 
-        "UC-WB4B.txt", 
-        "UC-AND5.txt", 
-        "UC-YZ4.txt"
-    ], 
-    "G1.txt": [
-        "UC-G1.txt", 
-        "UC-ALB6.txt", 
-        "UC-G13.txt", 
-        "UC-ALB1.txt", 
-        "UC-ALB3.txt", 
-        "UC-GSET.txt", 
-        "UC-ALB2.txt", 
-        "UC-ALB5.txt", 
-        "UC-G3.txt", 
-        "UC-G2.txt", 
-        "UC-ALB4.txt"
-    ], 
-    "F4.txt": [
-        "UC-ALX2.txt", 
-        "UC-ALB3.txt", 
-        "UC-ALB4.txt", 
-        "UC-ALXF3.txt", 
-        "UC-WB5.txt"
-    ], 
-    "C4.txt": [
-        "UC-AND4.txt", 
-        "UC-WB2.txt", 
-        "UC-ALB1.txt", 
-        "UC-ALB6.txt", 
-        "UC-ALB2.txt"
-    ], 
-    "G9.txt": [
-        "UC-ALB3.txt", 
-        "UC-GSET.txt", 
-        "UC-WB1.txt", 
-        "UC-WB3.txt", 
-        "UC-WB4.txt"
-    ], 
-    "R5.txt": [
-        "UC-R5.txt"
-    ], 
-    "A3.txt": [], 
-    "C8.txt": [
-        "UC-ALB6.txt", 
-        "UC-ALB1.txt", 
-        "UC-ALB2.txt", 
-        "UC-WB2.txt"
-    ], 
-    "N2.txt": [
-        "UC-ALB1.txt", 
-        "UC-ALB2.txt", 
-        "UC-ALB3.txt", 
-        "UC-ALB5.txt", 
-        "UC-ALB6.txt", 
-        "UC-ALX3.txt", 
-        "UC-AND1.txt", 
-        "UC-F9.txt", 
-        "UC-N2.txt", 
-        "UC-WB6.txt", 
-        "UC-YZ3.txt", 
-        "UC-YZ5.txt", 
-        "UC-YZ6.txt"
-    ], 
-    "G14.txt": [
-        "UC-WB5.txt"
-    ], 
-    "G13.txt": [
-        "UC-G13.txt"
-    ], 
-    "G8.txt": [], 
-    "R7.txt": [
-        "UC-ALB6.txt", 
-        "UC-WB1B.txt", 
-        "UC-WB4.txt"
-    ], 
-    "F2.txt": [
-        "UC-AND6.txt", 
-        "UC-F9.txt", 
-        "UC-AND5.txt", 
-        "UC-F10.txt", 
-        "UC-R5.txt", 
-        "UC-R6.txt", 
-        "UC-YZ5.txt", 
-        "UC-R2.txt", 
-        "UC-G13.txt", 
-        "UC-ALB3.txt", 
-        "UC-ALB6.txt", 
-        "UC-F1.txt", 
-        "UC-ALB4.txt", 
-        "UC-N2.txt", 
-        "UC-F5.txt", 
-        "UC-YZ2.txt", 
-        "UC-WB6B.txt", 
-        "UC-YZ1.txt", 
-        "UC-ALXF3.txt", 
-        "UC-YZ4.txt"
-    ], 
-    "R2.txt": [
-        "UC-R2.txt"
-    ], 
-    "G11.txt": [
-        "UC-ALX5.txt", 
-        "UC-WB3.txt", 
-        "UC-WB4.txt", 
-        "UC-WB2.txt", 
-        "UC-WB1B.txt", 
-        "UC-WB5B.txt", 
-        "UC-WB3B.txt", 
-        "UC-WB7.txt"
-    ], 
-    "A2.txt": [
-        "UC-ALX3.txt", 
-        "UC-AND3.txt", 
-        "UC-YZ3.txt", 
-        "UC-WB2B.txt", 
-        "UC-ALB5.txt"
-    ], 
-    "F1.txt": [
-        "UC-F9.txt", 
-        "UC-WB6B.txt", 
-        "UC-F1.txt", 
-        "UC-WB5.txt"
-    ], 
-    "A4.txt": [
-        "UC-ALB1.txt", 
-        "UC-WB4.txt"
-    ], 
-    "F8.txt": [
-        "UC-AND6.txt", 
-        "UC-WB5.txt", 
-        "UC-WB6.txt"
-    ], 
-    "C5.txt": [
-        "UC-WB2.txt"
-    ], 
-    "F3.txt": [
-        "UC-N2.txt", 
-        "UC-G13.txt", 
-        "UC-R5.txt", 
-        "UC-R6.txt", 
-        "UC-ALXF3.txt"
-    ], 
-    "G2.txt": [
-        "UC-G2.txt", 
-        "UC-ALB1.txt", 
-        "UC-ALB6.txt", 
-        "UC-ALB2.txt", 
-        "UC-ALB5.txt", 
-        "UC-YZ6.txt", 
-        "UC-YZ5.txt", 
-        "UC-YZ1.txt", 
-        "UC-YZ2.txt", 
-        "UC-YZ4.txt", 
-        "UC-YZ3.txt"
-    ], 
-    "F6.txt": [
-        "UC-AND5.txt", 
-        "UC-WB5.txt", 
-        "UC-WB4B.txt", 
-        "UC-ALB4.txt", 
-        "UC-F5.txt", 
-        "UC-YZ4.txt"
-    ], 
-    "G3.txt": [
-        "UC-G3.txt", 
-        "UC-ALB4.txt", 
-        "UC-GSET.txt", 
-        "UC-ALB3.txt", 
-        "UC-G13.txt"
-    ], 
-    "C2.txt": [
-        "UC-ALB2.txt", 
-        "UC-WB3.txt"
-    ]
+  "R8.txt": ["UC-WB3.txt", "UC-WB5B.txt"],
+  "R3.txt": ["UC-R3.txt", "UC-WB1.txt"],
+  "G7.txt": ["UC-YZ6.txt"],
+  "F10.txt": ["UC-F10.txt"],
+  "N3.txt": [
+    "UC-ALB3.txt",
+    "UC-ALX2.txt",
+    "UC-N2.txt",
+    "UC-WB1.txt",
+    "UC-WB5.txt",
+    "UC-WB7.txt",
+    "UC-YZ1.txt"
+  ],
+  "F9.txt": ["UC-F9.txt"],
+  "C10.txt": ["UC-WB4.txt"],
+  "G10.txt": ["UC-WB6.txt", "UC-ALX4.txt", "UC-AND1.txt"],
+  "C7.txt": [
+    "UC-ALX1.txt",
+    "UC-ALB1.txt",
+    "UC-ALB6.txt",
+    "UC-ALB2.txt",
+    "UC-WB2.txt"
+  ],
+  "G5.txt": [
+    "UC-ALB1.txt",
+    "UC-ALB2.txt",
+    "UC-ALB3.txt",
+    "UC-ALB5.txt",
+    "UC-ALB6.txt"
+  ],
+  "R1.txt": ["UC-AND2.txt", "UC-WB1.txt"],
+  "C9.txt": [
+    "UC-ALB6.txt",
+    "UC-ALB1.txt",
+    "UC-ALB2.txt",
+    "UC-N2.txt",
+    "UC-ALB3.txt",
+    "UC-ALX1.txt",
+    "UC-WB2.txt",
+    "UC-YZ1.txt",
+    "UC-YZ6.txt",
+    "UC-WB7.txt"
+  ],
+  "N1.txt": ["UC-ALB3.txt", "UC-ALX3.txt", "UC-AND1.txt", "UC-WB6.txt"],
+  "C3.txt": [
+    "UC-ALB6.txt",
+    "UC-ALB1.txt",
+    "UC-ALB2.txt",
+    "UC-WB4.txt",
+    "UC-WB3.txt",
+    "UC-WB2.txt",
+    "UC-WB7.txt"
+  ],
+  "G6.txt": [
+    "UC-ALB1.txt",
+    "UC-ALB2.txt",
+    "UC-ALX1.txt",
+    "UC-WB1B.txt",
+    "UC-WB1.txt",
+    "UC-F10.txt",
+    "UC-ALB6.txt",
+    "UC-WB2.txt",
+    "UC-WB3.txt",
+    "UC-WB3B.txt",
+    "UC-WB4.txt",
+    "UC-WB5B.txt",
+    "UC-WB7.txt",
+    "UC-YZ6.txt"
+  ],
+  "F7.txt": ["UC-YZ5.txt", "UC-ALB3.txt", "UC-WB5.txt", "UC-ALB4.txt"],
+  "R4.txt": [
+    "UC-ALB3.txt",
+    "UC-WB1.txt",
+    "UC-WB3.txt",
+    "UC-WB4.txt",
+    "UC-WB6.txt",
+    "UC-WB7.txt"
+  ],
+  "C1.txt": ["UC-ALB1.txt", "UC-ALB2.txt", "UC-WB7.txt", "UC-WB2.txt"],
+  "C6.txt": [
+    "UC-WB3B.txt",
+    "UC-ALX1.txt",
+    "UC-WB2.txt",
+    "UC-WB4.txt",
+    "UC-ALB1.txt"
+  ],
+  "G4.txt": [
+    "UC-ALB1.txt",
+    "UC-ALB2.txt",
+    "UC-ALB3.txt",
+    "UC-ALB4.txt",
+    "UC-ALB5.txt",
+    "UC-ALB6.txt",
+    "UC-F10.txt",
+    "UC-G13.txt",
+    "UC-G2.txt",
+    "UC-G3.txt",
+    "UC-GSET.txt",
+    "UC-YZ1.txt",
+    "UC-YZ2.txt",
+    "UC-YZ3.txt",
+    "UC-YZ4.txt",
+    "UC-YZ5.txt"
+  ],
+  "G12.txt": ["UC-G13.txt", "UC-GSET.txt", "UC-WB3.txt"],
+  "R6.txt": [
+    "UC-ALB3.txt",
+    "UC-ALB4.txt",
+    "UC-F5.txt",
+    "UC-R6.txt",
+    "UC-WB4B.txt",
+    "UC-YZ2.txt",
+    "UC-YZ4.txt",
+    "UC-WB5.txt"
+  ],
+  "A1.txt": [
+    "UC-ALB5.txt",
+    "UC-YZ3.txt",
+    "UC-R3.txt",
+    "UC-WB4.txt",
+    "UC-WB6.txt",
+    "UC-WB1.txt",
+    "UC-ALX3.txt",
+    "UC-WB2.txt",
+    "UC-AND3.txt",
+    "UC-WB2B.txt"
+  ],
+  "F5.txt": [
+    "UC-ALB4.txt",
+    "UC-ALB3.txt",
+    "UC-WB5.txt",
+    "UC-F5.txt",
+    "UC-WB4B.txt",
+    "UC-AND5.txt",
+    "UC-YZ4.txt"
+  ],
+  "G1.txt": [
+    "UC-G1.txt",
+    "UC-ALB6.txt",
+    "UC-G13.txt",
+    "UC-ALB1.txt",
+    "UC-ALB3.txt",
+    "UC-GSET.txt",
+    "UC-ALB2.txt",
+    "UC-ALB5.txt",
+    "UC-G3.txt",
+    "UC-G2.txt",
+    "UC-ALB4.txt"
+  ],
+  "F4.txt": [
+    "UC-ALX2.txt",
+    "UC-ALB3.txt",
+    "UC-ALB4.txt",
+    "UC-ALXF3.txt",
+    "UC-WB5.txt"
+  ],
+  "C4.txt": [
+    "UC-AND4.txt",
+    "UC-WB2.txt",
+    "UC-ALB1.txt",
+    "UC-ALB6.txt",
+    "UC-ALB2.txt"
+  ],
+  "G9.txt": [
+    "UC-ALB3.txt",
+    "UC-GSET.txt",
+    "UC-WB1.txt",
+    "UC-WB3.txt",
+    "UC-WB4.txt"
+  ],
+  "R5.txt": ["UC-R5.txt"],
+  "A3.txt": [],
+  "C8.txt": ["UC-ALB6.txt", "UC-ALB1.txt", "UC-ALB2.txt", "UC-WB2.txt"],
+  "N2.txt": [
+    "UC-ALB1.txt",
+    "UC-ALB2.txt",
+    "UC-ALB3.txt",
+    "UC-ALB5.txt",
+    "UC-ALB6.txt",
+    "UC-ALX3.txt",
+    "UC-AND1.txt",
+    "UC-F9.txt",
+    "UC-N2.txt",
+    "UC-WB6.txt",
+    "UC-YZ3.txt",
+    "UC-YZ5.txt",
+    "UC-YZ6.txt"
+  ],
+  "G14.txt": ["UC-WB5.txt"],
+  "G13.txt": ["UC-G13.txt"],
+  "G8.txt": [],
+  "R7.txt": ["UC-ALB6.txt", "UC-WB1B.txt", "UC-WB4.txt"],
+  "F2.txt": [
+    "UC-AND6.txt",
+    "UC-F9.txt",
+    "UC-AND5.txt",
+    "UC-F10.txt",
+    "UC-R5.txt",
+    "UC-R6.txt",
+    "UC-YZ5.txt",
+    "UC-R2.txt",
+    "UC-G13.txt",
+    "UC-ALB3.txt",
+    "UC-ALB6.txt",
+    "UC-F1.txt",
+    "UC-ALB4.txt",
+    "UC-N2.txt",
+    "UC-F5.txt",
+    "UC-YZ2.txt",
+    "UC-WB6B.txt",
+    "UC-YZ1.txt",
+    "UC-ALXF3.txt",
+    "UC-YZ4.txt"
+  ],
+  "R2.txt": ["UC-R2.txt"],
+  "G11.txt": [
+    "UC-ALX5.txt",
+    "UC-WB3.txt",
+    "UC-WB4.txt",
+    "UC-WB2.txt",
+    "UC-WB1B.txt",
+    "UC-WB5B.txt",
+    "UC-WB3B.txt",
+    "UC-WB7.txt"
+  ],
+  "A2.txt": [
+    "UC-ALX3.txt",
+    "UC-AND3.txt",
+    "UC-YZ3.txt",
+    "UC-WB2B.txt",
+    "UC-ALB5.txt"
+  ],
+  "F1.txt": ["UC-F9.txt", "UC-WB6B.txt", "UC-F1.txt", "UC-WB5.txt"],
+  "A4.txt": ["UC-ALB1.txt", "UC-WB4.txt"],
+  "F8.txt": ["UC-AND6.txt", "UC-WB5.txt", "UC-WB6.txt"],
+  "C5.txt": ["UC-WB2.txt"],
+  "F3.txt": [
+    "UC-N2.txt",
+    "UC-G13.txt",
+    "UC-R5.txt",
+    "UC-R6.txt",
+    "UC-ALXF3.txt"
+  ],
+  "G2.txt": [
+    "UC-G2.txt",
+    "UC-ALB1.txt",
+    "UC-ALB6.txt",
+    "UC-ALB2.txt",
+    "UC-ALB5.txt",
+    "UC-YZ6.txt",
+    "UC-YZ5.txt",
+    "UC-YZ1.txt",
+    "UC-YZ2.txt",
+    "UC-YZ4.txt",
+    "UC-YZ3.txt"
+  ],
+  "F6.txt": [
+    "UC-AND5.txt",
+    "UC-WB5.txt",
+    "UC-WB4B.txt",
+    "UC-ALB4.txt",
+    "UC-F5.txt",
+    "UC-YZ4.txt"
+  ],
+  "G3.txt": [
+    "UC-G3.txt",
+    "UC-ALB4.txt",
+    "UC-GSET.txt",
+    "UC-ALB3.txt",
+    "UC-G13.txt"
+  ],
+  "C2.txt": ["UC-ALB2.txt", "UC-WB3.txt"]
 }

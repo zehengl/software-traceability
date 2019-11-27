@@ -1,3 +1,51 @@
-{% extends "layout.html" %} {% block content %}
-<h1 class="text-center">under construction</h1>
-{% endblock content %}
+{% extends "bootstrap/base.html" %}
+
+{% block head %}
+  {{ super() }}
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='favicon.png') }}"
+  />
+{% endblock %}
+
+{% block title %} software-traceability {% endblock %}
+
+{% block content %}
+  <div style="display: flex; min-height:100vh; flex-direction:column; flex: 1">
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">
+          <span>
+            <img
+              src="{{ url_for('static', filename='favicon.png') }}"
+              width="64"
+              height="64"
+            />
+          </span>
+          software-traceability
+        </h1>
+        <p class="lead">
+          A Python application to demonstrate some software traceability studies
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <h1 class="text-center">under construction</h1>
+    </div>
+  </div>
+  <footer class="footer" style="padding: 1rem">
+    <div class="container">
+        <span class="text-muted">
+          &copy; Copyright 2019 by Zeheng Li <br />
+          Icon made by
+          <a href="https://www.flaticon.com/authors/geotatah" title="geotatah">
+            geotatah
+          </a>
+          from
+          <a href="https://www.flaticon.com/" title="Flaticon">
+            www.flaticon.com
+          </a>
+        </span>
+      </div>
+  </footer>
+{% endblock %}

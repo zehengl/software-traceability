@@ -4,7 +4,7 @@ from whitenoise import WhiteNoise
 
 app = Flask(__name__)
 Bootstrap(app)
-app.wsgi_app = WhiteNoise(app.wsgi_app, root="static/")
+app.wsgi_app = WhiteNoise(app.wsgi_app, root="datasets", prefix="datasets")
 app.config["BOOTSTRAP_SERVE_LOCAL"] = True
 
 

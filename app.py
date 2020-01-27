@@ -13,5 +13,15 @@ def index():
     return render_template("index.html")
 
 
+@app.route("/browse", methods=["get"])
+def browse():
+    return render_template("browse.html")
+
+
+@app.route("/baseline", methods=["get"])
+def baseline():
+    return render_template("baseline.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)

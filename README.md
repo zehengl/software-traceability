@@ -5,10 +5,24 @@
 
 A Python application to demonstrate some software traceability studies
 
-## Docs
+## Develop
+
+### Dependency
+
+    python -m venv venv
+    .\venv\Scripts\activate
+    pip install requirements-dev.txt
+
+### Docs
 
     cd docs
     make html
+    cd build/html
+    python -m http.server 9000 --bind localhost
+
+### Test
+
+    pytest
 
 ## Credits
 

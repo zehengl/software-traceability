@@ -2,6 +2,8 @@ from flask import Flask, render_template
 from flask_bootstrap import Bootstrap
 from whitenoise import WhiteNoise
 
+from datasets import CM1, CM1_Sub, GanttProject, MODIS, Pine, WorldVistA
+
 app = Flask(__name__)
 Bootstrap(app)
 app.wsgi_app = WhiteNoise(app.wsgi_app, root="datasets", prefix="datasets")
@@ -15,7 +17,10 @@ def index():
 
 @app.route("/browse", methods=["get"])
 def browse():
-    return render_template("browse.html")
+    return render_template(
+        "browse.html",
+        datasets=[CM1(), CM1_Sub(), GanttProject(), MODIS(), Pine(), WorldVistA()],
+    )
 
 
 @app.route("/baseline", methods=["get"])

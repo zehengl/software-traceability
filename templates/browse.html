@@ -1,3 +1,22 @@
 {% extends "base.html" %}
 
 {% block title %} software-traceability/browse {% endblock %}
+
+{% block main %}
+  <div class="container">
+    <h3>Datasets</h3>
+    {% for dataset in datasets %}
+      <div class="row" style="padding-bottom:1rem;">
+        <div class="col-sm card">
+          <div class="card-body">
+            <h5 class="card-title">{{ dataset.name }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ dataset.code }}</h6>
+            <p class="card-text">{{ dataset.description }}</p>
+            <a href="#" class="card-link">Statistics</a>
+            <a href="#" class="card-link">Link</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock main %}

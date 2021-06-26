@@ -27,15 +27,9 @@ A Python application to demonstrate some software traceability studies
 
     pytest
 
-<hr>
-
-<sup>
-
 ## Credits
 
 - [Icon][1] by [geotatah][2]
-
-</sup>
 
 [1]: https://www.flaticon.com/free-icon/networking_992837#term=social%20relation&page=1&position=14
 [2]: https://www.flaticon.com/authors/geotatah

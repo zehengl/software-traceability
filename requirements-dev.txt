@@ -4,4 +4,4 @@ doc8==0.10.1
 pip-check-updates==0.8.1
 pylint==2.12.2
 pytest==6.2.5
-Sphinx==4.3.2
+Sphinx==4.4.0

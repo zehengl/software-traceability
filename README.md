@@ -12,8 +12,8 @@ A Python application to demonstrate some software traceability studies
 
 ### Dependency
 
-    python -m venv venv
-    .\venv\Scripts\activate
+    python -m venv .venv
+    .\.venv\Scripts\activate
     pip install requirements-dev.txt
 
 ### Docs

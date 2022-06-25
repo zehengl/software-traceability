@@ -16,13 +16,6 @@ A Python application to demonstrate some software traceability studies
     .\.venv\Scripts\activate
     pip install requirements-dev.txt
 
-### Docs
-
-    cd docs
-    make html
-    cd build/html
-    python -m http.server 9000 --bind localhost
-
 ### Test
 
     pytest

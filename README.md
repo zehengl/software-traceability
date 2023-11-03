@@ -8,17 +8,12 @@
 
 A Python application to demonstrate some software traceability studies
 
-## Develop
-
-### Dependency
+## Getting Started
 
     python -m venv .venv
     .\.venv\Scripts\activate
-    pip install requirements-dev.txt
-
-### Test
-
-    pytest
+    pip install -r requirements.txt
+    python app.py
 
 ## Credits
 
